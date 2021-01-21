@@ -81,3 +81,10 @@ fn word_count_works2() {
 
     assert_eq!(count(Cursor::new("aa  cc dd"), CountOption::Word), exp);
 }
+
+// #[test]
+// fn assert_test() {
+//     let a = 2;
+//     let b = 27;
+//     assert!(a + b == 30, "a = {}, b = {}", a, b);
+// }
